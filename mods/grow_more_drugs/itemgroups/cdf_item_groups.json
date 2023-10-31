@@ -1,0 +1,39 @@
+[
+  {
+    "id": "gmd_bag_of_coca_seeds",
+    "type": "item_group",
+    "subtype": "collection",
+    "container-item": "bag_plastic",
+    "items": [ { "item": "cdf_seed_coca", "prob": 100, "count": [ 1, 20 ] } ]
+  },
+  {
+    "id": "hydro",
+    "type": "item_group",
+    "copy-from": "hydro",
+    "extend": { "items": [ [ "cdf_seed_tea", 1 ], [ "coffee_bean", 1 ], [ "seed_weed", 1 ] ] }
+  },
+  {
+    "id": "farming_seeds",
+    "type": "item_group",
+    "copy-from": "farming_seeds",
+    "extend": { "items": [ [ "cdf_seed_tea", 1 ], [ "coffee_bean", 1 ], [ "cdf_seed_poppy", 1 ] ] }
+  },
+  {
+    "id": "stash_drugs",
+    "type": "item_group",
+    "copy-from": "stash_drugs",
+    "extend": { "items": [ { "group": "gmd_bag_of_coca_seeds", "prob": 25 }, [ "gmd_pure_coke", 5 ] ] }
+  },
+  {
+    "id": "cop_evidence",
+    "type": "item_group",
+    "copy-from": "cop_evidence",
+    "extend": { "items": [ { "group": "gmd_bag_of_coca_seeds", "prob": 25 }, [ "gmd_pure_coke", 5 ] ] }
+  },
+  {
+    "id": "drugdealer",
+    "type": "item_group",
+    "copy-from": "drugdealer",
+    "extend": { "items": [ { "group": "gmd_bag_of_coca_seeds", "prob": 20 }, [ "gmd_pure_coke", 5 ] ] }
+  }
+]

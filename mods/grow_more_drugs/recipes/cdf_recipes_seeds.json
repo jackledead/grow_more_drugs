@@ -1,0 +1,9 @@
+[
+  {
+    "result": "cdf_seed_poppy",
+    "type": "recipe",
+    "copy-from": "seed_extraction_cutting",
+    "components": [ [ [ "poppy_bud", 1 ] ] ],
+    "charges": 2
+  }
+]

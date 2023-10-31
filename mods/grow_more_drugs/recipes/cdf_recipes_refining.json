@@ -1,0 +1,77 @@
+[
+  {
+    "type": "recipe",
+    "result": "cdf_coca_raw",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "survival",
+    "time": "25 m",
+    "charges": 500,
+    "autolearn": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "components": [ [ [ "gmd_coca_leaves_bundle", 1 ] ] ],
+    "byproduct_group": [{ "item": "cdf_seed_coca", "count": [ 1, 5 ] }]
+  },
+  {
+    "type": "recipe",
+    "result": "gmd_pure_coke",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "chemistry",
+    "difficulty": 4,
+    "time": "6 h",
+    "book_learn": [ [ "adv_chemistry", 4 ], [ "recipe_labchem", 4 ], [ "textbook_anarch", 4 ] ],
+    "batch_time_factors": [ 30, 3 ],
+    "proficiencies": [
+      { "proficiency": "prof_intro_chemistry" },
+      { "proficiency": "prof_organic_chemistry" },
+      { "proficiency": "prof_pharmaceutical" }
+    ],
+    "qualities": [
+      { "id": "CHEM", "level": 2 },
+      { "id": "CONTAIN", "level": 1 },
+      { "id": "SEPARATE", "level": 1 },
+      { "id": "SIEVE", "level": 1 }
+    ],
+    "components": [
+      [ [ "cdf_coca_raw", 300 ] ],
+      [ [ "chem_toluene", 2 ], [ "chem_acetone", 2 ], [ "chem_ethanol", 2 ] ],
+      [ [ "chem_sulphuric_acid", 1 ], [ "chem_muriatic_acid", 1 ] ],
+      [ [ "lye", 1 ], [ "lye_potassium", 1 ], [ "chem_baking_soda", 2 ] ],
+      [ [ "water", 3 ], [ "water_clean", 3 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "coke",
+    "activity_level": "NO_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "chemistry",
+    "difficulty": 3,
+    "time": "7 h",
+    "book_learn": [
+      [ "textbook_anarch", 2 ],
+      [ "textbook_chemistry", 3 ],
+      [ "atomic_survival", 5 ],
+      [ "adv_chemistry", 4 ],
+      [ "recipe_labchem", 4 ]
+    ],
+    "batch_time_factors": [ 30, 3 ],
+    "proficiencies": [
+      { "proficiency": "prof_intro_chemistry" },
+      { "proficiency": "prof_organic_chemistry" },
+      { "proficiency": "prof_pharmaceutical" }
+    ],
+    "qualities": [ { "id": "CHEM", "level": 1 }, { "id": "CONTAIN", "level": 1 }, { "id": "SIEVE", "level": 1 } ],
+    "components": [
+      [ [ "cdf_coca_raw", 400 ] ],
+      [ [ "gasoline", 5 ], [ "diesel", 5 ], [ "biodiesel", 5 ] ],
+      [ [ "chem_sulphuric_acid", 1 ], [ "chem_muriatic_acid", 1 ] ],
+      [ [ "material_cement", 2 ], [ "chem_baking_soda", 10 ], [ "salt", 14 ] ],
+      [ [ "water", 3 ], [ "water_clean", 3 ] ]
+    ]
+  }
+]

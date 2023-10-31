@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "grow_more_drugs",
+    "name": "Grow More Drugs (CDF+)",
+    "authors": "Jackledead, Maddremor",
+    "maintainers": [ "Jackledead" ],
+    "description": "Adds different drug crops that would not grow in New England, but work great with TropiCataclysm. Successor mod to Climate Defying Farming by Maddremor. Plants/seeds: Coca, coffee, tea, poppy, tobacco.",
+    "category": "items",
+    "dependencies": [ "dda" ]
+  }
+]

@@ -29,13 +29,5 @@
     "name": { "str": "tea bush seed", "str_pl": "tea bush seeds" },
     "description": "Some tea bush seeds.",
     "seed_data": { "plant_name": "tea bush", "fruit": "tea_raw", "byproducts": [ "withered" ], "grow": 91 }
-  },
-  {
-    "id": "cdf_seed_tobacco",
-    "copy-from": "seed",
-    "type": "COMESTIBLE",
-    "name": { "str": "tobacco seed", "str_pl": "tobacco seeds" },
-    "description": "Some tobacco seeds.",
-    "seed_data": { "plant_name": "tobacco plant", "fruit": "tobacco_raw", "byproducts": [ "withered" ], "grow": 91 }
   }
 ]

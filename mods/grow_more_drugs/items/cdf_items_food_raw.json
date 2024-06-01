@@ -63,5 +63,54 @@
       2
     ]
   ]
+ },
+ {
+  "id": "dry_bluebell",
+  "type": "COMESTIBLE",
+  "comestible_type": "MED",
+  "name": {
+    "str_sp": "dried bluebell flowers"
+  },
+  "description": "Dried bluebell flowers.  Not edible anymore, but you could smoke those for a quick relief from withdrawal: But have in mind that these will only trick your brain, bluebell has no nicotine.",
+  "weight": "25 g",
+  "volume": "30 ml",
+  "price": "1 cent",
+  "price_postapoc": "5 cent",
+  "symbol": "!",
+  "color": "brown",
+  "container": "bag_plastic_small",
+  "stim": 1,
+  "healthy": -1,
+  "fun": 2,
+  "addiction_potential": 0,
+  "addiction_type": "nicotine",
+  "flags": [
+    "NO_INGEST",
+    "EDIBLE_FROZEN"
+  ],
+  "use_action": {
+    "type": "consume_drug",
+    "activation_message": "You smoke some dried bluebells flowers.  They don't feel that close to tobacco.",
+    "effects": [
+      {
+        "id": "cig",
+        "duration": 200
+      }
+    ],
+    "stat_adjustments": {
+      "hunger": -1,
+      "thirst": 1
+    },
+    "fields_produced": {
+      "fd_cigsmoke": 2
+    },
+    "charges_needed": {
+      "fire": 1
+    },
+    "tools_needed": {
+      "apparatus": -1
+    },
+    "moves": 250
+  }
  }
 ]

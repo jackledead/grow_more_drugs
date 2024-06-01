@@ -23,4 +23,23 @@
     "flags": [ "NO_INGEST" ],
     "use_action": [ "CHEW" ]
   }
+  {
+    "id": "bluebell_flower",
+    "type": "COMESTIBLE",
+    "looks_like": "lettuce",
+    "comestible_type": "MED",
+    "name": { "str": "bluebell flowers", "str_pl": "bluebell flowers" },
+    "description": "Leaves from the coca plant, chopped for ease of use. Can be further refined into cocaine or chewed as is.",
+    "weight": "20 g",
+    "volume": "1 ml",
+    "price": "10 cent",
+    "price_postapoc": "1 cent",
+    "symbol": "o",
+    "color": "green",
+    "container": "bag_plastic",
+    "material": [ "veggy" ],
+    "quench": -1,
+    "healthy": 1,
+    "fun": 1
+    }
 ]

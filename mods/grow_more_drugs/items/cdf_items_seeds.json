@@ -16,6 +16,14 @@
     "seed_data": { "plant_name": "mutated poppy", "fruit": "poppy_bud", "grow": 30 }
   },
   {
+    "id": "bluebell_s",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str": "bluebell seeds", "str_pl": "bluebell seeds" },
+    "description": "Tiny, round black bluebell seeds.",
+    "seed_data": { "plant_name": "bluebell", "fruit": "bluebell_f", "byproducts": [ "bluebell_g" ], "grow": 50 }
+  },
+  {
     "id": "coffee_bean",
     "copy-from": "coffee_bean",
     "type": "COMESTIBLE",

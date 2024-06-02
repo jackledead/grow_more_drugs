@@ -11,7 +11,7 @@
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
     "components": [ [ [ "gmd_coca_leaves_bundle", 1 ] ] ],
-    "byproduct_group": [{ "item": "cdf_seed_coca", "count": [ 1, 5 ] }]
+    "byproduct_group": [ { "item": "cdf_seed_coca", "count": [ 1, 5 ] } ]
   },
   {
     "type": "recipe",
@@ -73,5 +73,34 @@
       [ [ "material_cement", 2 ], [ "chem_baking_soda", 10 ], [ "salt", 14 ] ],
       [ [ "water", 3 ], [ "water_clean", 3 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "bluebell_flowers",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_VEGGI",
+    "skill_used": "survival",
+    "time": "5 m",
+    "charges": 30,
+    "autolearn": true,
+    "components": [ [ [ "bluebell_bundle", 1 ] ] ],
+    "byproduct_group": [
+      { "item": "bluebell_greens", "count": [ 1, 2 ] },
+      { "item": "bluebell_seed", "count": [ 1, 5 ] }
+    ]
+},
+  {
+    "type": "recipe",
+    "result": "dry_bluebell",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "cooking",
+    "time": "10 m",
+    "charges": 10,
+    "autolearn": true,
+    "qualities": [ { "id": "COOK", "level": 1 } ],
+    "components": [ [ [ "bluebell_flowers", 10 ] ] ]
   }
 ]

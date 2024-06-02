@@ -1,0 +1,37 @@
+{
+    "id": "handrolled_bluebell_cig",
+    "type": "COMESTIBLE",
+    "looks_like": "handrolled_cig",
+    "comestible_type": "MED",
+    "name": { "str": "hand-rolled bluebell cigarette" },
+    "description": "A hand-rolled cigarette made from dried bluebell flowers. While not containing any nicotine, the act of smoking it can provide a placebo effect and temporary relief from withdrawal symptoms.",
+    "weight": "1 g",
+    "volume": "4 ml",
+    "price": "1 cent",
+    "price_postapoc": "10 cent",
+    "symbol": "!",
+    "color": "brown",
+    "stim": 1,
+    "healthy": -1,
+    "fun": 3,
+    "addiction_potential": 0,
+    "addiction_type": "nicotine",
+    "flags": [ "NO_INGEST", "EDIBLE_FROZEN" ],
+    "use_action": [ "SMOKING" ]
+  },
+  {
+    "type": "recipe",
+    "activity_level": "NO_EXERCISE",
+    "result": "handrolled_bluebell_cig",
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_DRUGS",
+    "skill_used": "fabrication",
+    "time": "2 m",
+    "autolearn": true,
+    "reversible": true,
+    "flags": [ "BLIND_HARD" ],
+    "components": [
+      [ [ "rolling_paper", 1 ] ],
+      [ [ "dry_bluebell", 1 ] ]
+    ]
+  }

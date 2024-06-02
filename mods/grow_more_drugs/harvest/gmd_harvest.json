@@ -1,0 +1,9 @@
+[
+    {
+      "id": "bluebell_harv",
+      "type": "harvest",
+      "copy-from": "bluebell_harv",
+      "entries": [ { "drop": "withered", "base_num": [ 0, 2 ] }, { "drop": "bluebell_bundle", "base_num": [ 1, 2 ] } ]
+    }
+  ]
+  

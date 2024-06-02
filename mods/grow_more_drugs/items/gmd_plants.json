@@ -1,14 +1,31 @@
-[{
-    "id": "gmd_coca_leaves_bundle",
-    "type": "GENERIC",
-    "name": { "str": "large bundle of coca leaves" },
-    "description": "A large bundle of mature coca leaves and some twigs, ready to be chopped up for immediate use or processing into cocaine.", 
-    "weight": "550 g",
-    "volume": "1000 ml",
-    "price": "5000 cent",
-    "price_postapoc": "2000 cent",
-    "symbol": "%",
-    "color": "green",
-    "looks_like": "raw_burdock",
-    "material": [ "veggy" ]
-}]
+[
+    {
+      "id": "gmd_coca_leaves_bundle",
+      "type": "GENERIC",
+      "name": { "str": "large bundle of coca leaves" },
+      "description": "A large bundle of mature coca leaves and some twigs, ready to be chopped up for immediate use or processing into cocaine.",
+      "weight": "550 g",
+      "volume": "1000 ml",
+      "price": "5000 cent",
+      "price_postapoc": "2000 cent",
+      "symbol": "%",
+      "color": "green",
+      "looks_like": "raw_burdock",
+      "material": [ "veggy" ]
+    },
+    {
+      "id": "bluebell_bundle",
+      "type": "GENERIC",
+      "name": { "str": "bundle of bluebell plants" },
+      "description": "A bundle of mature bluebell plants, including the flowers, greens, and some seeds. Ready to be processed into its various components.",
+      "weight": "550 g",
+      "volume": "1000 ml",
+      "price": "500 cent",
+      "price_postapoc": "200 cent",
+      "symbol": "%",
+      "color": "blue",
+      "looks_like": "raw_burdock",
+      "material": [ "veggy" ]
+    }
+  ]
+  

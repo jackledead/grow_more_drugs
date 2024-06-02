@@ -29,5 +29,13 @@
     "name": { "str": "tea bush seed", "str_pl": "tea bush seeds" },
     "description": "Some tea bush seeds.",
     "seed_data": { "plant_name": "tea bush", "fruit": "tea_raw", "byproducts": [ "withered" ], "grow": 91 }
+  },
+  {
+    "id": "bluebell_seed",
+    "copy-from": "seed",
+    "type": "COMESTIBLE",
+    "name": { "str": "bluebell seed", "str_pl": "bluebell seeds" },
+    "description": "Some bluebell plant seeds. Plant them to grow more bluebells.",
+    "seed_data": { "plant_name": "bluebell plant", "fruit": "bluebell_bundle", "byproducts": [ "withered" ], "grow": 50 }
   }
 ]

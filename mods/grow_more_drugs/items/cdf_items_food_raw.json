@@ -29,7 +29,7 @@
   "name": {
     "str_sp": "bluebell flowers", "str_pl": "bluebell flowers"
   },
-  "weight": "50 g",
+  "weight": "100 g",
   "color": "blue",
   "spoils_in": "1 day 6 hours",
   "comestible_type": "FOOD",
@@ -41,7 +41,7 @@
   "material": [
     "veggy"
   ],
-  "volume": "107 ml",
+  "volume": "100 ml",
   "fun": -2,
   "flags": [
     "FREEZERBURN",
@@ -72,8 +72,8 @@
     "str_sp": "dried bluebell flowers"
   },
   "description": "Dried bluebell flowers.  Not edible anymore, but you could smoke those for a quick relief from withdrawal: But have in mind that these will only trick your brain, bluebell has no nicotine.",
-  "weight": "25 g",
-  "volume": "30 ml",
+  "weight": "80 g",
+  "volume": "80 ml",
   "price": "1 cent",
   "price_postapoc": "5 cent",
   "symbol": "!",
@@ -111,6 +111,49 @@
       "apparatus": -1
     },
     "moves": 250
-  }
+  },
+  {
+  "type": "COMESTIBLE",
+  "id": "bluebell_g",
+  "name": {
+    "str": "handful of bluebell greens",
+    "str_pl": "handfuls of bluebell greens"
+  },
+  "weight": "100 g",
+  "color": "green",
+  "spoils_in": "1 day 6 hours",
+  "comestible_type": "FOOD",
+  "symbol": "^",
+  "healthy": 1,
+  "calories": 21,
+  "description": "Raw bluebell greens.  They probably taste a lot better when cooked.",
+  "price": "15 cent",
+  "price_postapoc": "12 cent",
+  "material": [
+    "veggy"
+  ],
+  "volume": "100 ml",
+  "fun": -12,
+  "flags": [
+    "FREEZERBURN",
+    "SMOKABLE",
+    "RAW"
+  ],
+  "smoking_result": "dry_veggy",
+  "vitamins": [
+    [
+      "vitC",
+      "16 mg"
+    ],
+    [
+      "iron",
+      "2 mg"
+    ],
+    [
+      "calcium",
+      "66 mg"
+    ]
+  ]
+ }
  }
 ]

@@ -43,4 +43,60 @@
       ]
     ]
   ]
+},
+{
+  "type": "recipe",
+  "activity_level": "NO_EXERCISE",
+  "result": "coca_tea_sugar",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "cooking",
+  "autolearn": true,
+  "//": "2 minutes to boil per 250ml, then simultaneous steeping time of 4 minutes.",
+  "time": "6 m",
+  "batch_time_factors": [
+    65,
+    1
+  ],
+  "qualities": [
+    {
+      "id": "BOIL",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "water_boiling_heat",
+        1,
+        "LIST"
+      ]
+    ]
+  ],
+  "components": [
+    [
+      [
+        "cdf_coca_raw",
+        1
+      ]
+    ],
+    [
+      [
+        "water",
+        1
+      ],
+      [
+        "water_clean",
+        1
+      ]
+    ],
+    [
+      [
+        "sugar_standard_half",
+        1,
+        "LIST"
+      ]
+    ]
+  ],
+  "copy-from": "coca_tea"
 }

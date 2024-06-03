@@ -2,7 +2,7 @@
  {
   "type": "recipe",
   "activity_level": "NO_EXERCISE",
-  "result": "tea",
+  "result": "coca_tea",
   "category": "CC_*",
   "subcategory": "CSC_*_NESTED",
   "skill_used": "cooking",

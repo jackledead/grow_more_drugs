@@ -29,10 +29,13 @@
     ]
   ],
   "components": [
+    [
       [
         "cdf_coca_raw",
         1
-      ],
+      ]
+    ],
+    [
       [
         "water",
         1
@@ -40,8 +43,8 @@
       [
         "water_clean",
         1
-      ]
     ]
+  ]
 },
 {
   "type": "recipe",

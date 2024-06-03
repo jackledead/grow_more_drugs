@@ -12,7 +12,7 @@
     "batch_time_factors": [ 65, 1 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 1, "LIST" ] ] ],
-    "components": [ [ [ "cdf_coca_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
+    "components": [ [ [ "cdf_coca_raw", 3 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -27,7 +27,7 @@
     "batch_time_factors": [ 65, 1 ],
     "qualities": [ { "id": "BOIL", "level": 1 } ],
     "tools": [ [ [ "water_boiling_heat", 1, "LIST" ] ] ],
-    "components": [ [ [ "cdf_coca_raw", 1 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "sugar_standard_half", 1, "LIST" ] ] ],
+    "components": [ [ [ "cdf_coca_raw", 3 ] ], [ [ "water", 1 ], [ "water_clean", 1 ] ], [ [ "sugar_standard_half", 1, "LIST" ] ] ],
     "copy-from": "coca_tea"
   }
 ]
